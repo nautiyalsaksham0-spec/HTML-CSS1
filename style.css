@@ -7,6 +7,9 @@ body{
     justify-content:space-between;
     background-color: aliceblue;
     align-items:centre;
+    border:3px solid;
+    padding-bottom: 10px;
+    border-color: blue;
 
 
 }
@@ -21,7 +24,10 @@ body{
 text-align: center;}
 .nav-buttons .btn{
     border:5px solid;
-    font-size:14px;
+    width:92.8px;
+    height:43px;
+    font-size:25px;
+    text-align: center;
     margin-right:10px;
     padding:2px;
 }
@@ -36,9 +42,31 @@ text-align: center;}
     background-color: antiquewhite;
 }
 .signup{
-    background-color: antiquewhite;
+    background-color: rgb(3, 3, 30);
 }
 .login:hover,.signup:hover{
-    color:aqua;
-    opacity:0.8;
+    color:rgb(6, 72, 177);
+   opacity:0.8;
 }
+.hero{
+    background-color: rgb(84, 61, 139);
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    align-items: center; 
+    min-height:850px;
+    padding-left: 40px;
+}
+.changing-text{
+    text-align: center;
+    transition:opacity 2s;
+    transform: translateY(-120px);
+
+}
+
+.banner img{
+    width: 600px;
+    transform: translateY(-120px);
+
+}
+ 
