@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    font-family:sans-serif,Arial;
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    background-color: aliceblue;
+    align-items:centre;
+
+
+}
+.nav-links{
+    display:Flex;
+    justify-content:space-between;
+    gap:20px;
+}
+.nav-buttons{
+    display:flex;
+    justify-content:space-between;
+text-align: center;}
+.nav-buttons .btn{
+    border:5px solid;
+    font-size:14px;
+    margin-right:10px;
+    padding:2px;
+}
+.nav-links li a{
+    color:rgb(151, 135, 222);
+
+}
+.nav-links li a:hover{
+    color: aqua;
+}
+.login{
+    background-color: antiquewhite;
+}
+.signup{
+    background-color: antiquewhite;
+}
+.login:hover,.signup:hover{
+    color:aqua;
+    opacity:0.8;
+}
