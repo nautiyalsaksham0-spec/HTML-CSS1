@@ -69,4 +69,45 @@ text-align: center;}
     transform: translateY(-120px);
 
 }
- 
+ .partner{
+    background-color: rgb(15, 100, 175);
+    text-align: center;
+    transform:translateY(-22px);
+ }
+ .partner h1{
+    padding-top: 42px;
+ }
+ .partner h3{
+    transform: translateY(-30px);
+ }
+ .partner h1:hover{
+    color:yellowgreen;
+opacity:0.2s;}
+    .partner h1 :visited{
+        color:grey;
+ }
+ .partner img{
+    width: 1091px;
+    height: 244px;
+    padding-bottom: 20px;
+    
+ }
+ .why{
+    text-align: center;
+    background-color: aquamarine;
+    min-height: 140px;
+    transform: translateY(-50px);
+ }
+ .why .signup{
+border:5px solid;
+    width:92.8px;
+    height:43px;
+    font-size:25px;
+    text-align: center;
+    margin-right:10px;
+    padding:2px;
+  
+ }
+ .why h1{
+    padding-top: 12px;
+ }
